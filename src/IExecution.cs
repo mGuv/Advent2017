@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Advent2017
 {
+    /// <summary>
+    /// Representation of an Advent challenge to run
+    /// </summary>
     public interface IExecution
     {
         /// <summary>

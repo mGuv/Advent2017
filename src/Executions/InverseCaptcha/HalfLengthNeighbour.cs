@@ -20,7 +20,7 @@
         /// </summary>
         public override void Run()
         {
-            // Calculate using the neighbour to the left
+            // Calculate using the neighbour half way round the list
             int[] input = this.GetInput();
             this.Calculate(input, input.Length / 2);
         }
